@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Presentation.Migrations
 {
     [DbContext(typeof(BookingDbContext))]
-    [Migration("20250527142606_InitBooking")]
-    partial class InitBooking
+    [Migration("20250528114128_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
